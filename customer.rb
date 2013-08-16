@@ -21,7 +21,7 @@ end
 cust1 = Customer.new("1","summer","huizhou")
 cust2 = Customer.new("2","swyma","huiyang")
 
-cust1.display()
-cust1.total_num_of_customers()
-cust2.display()
-cust2.total_num_of_customers()
+cust1.display
+cust1.total_num_of_customers
+cust2.display
+cust2.total_num_of_customers
