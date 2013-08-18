@@ -3,6 +3,7 @@ class Person
     @name = name
     @age = age
   end
+private
   def sayname
     puts @name
   end
