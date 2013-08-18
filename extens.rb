@@ -11,6 +11,21 @@ class Person
   end
 end
 
-person = Person.new("summer","25")
-person.sayname()
-person.sayage()
+person = Person.new("test","11")
+#person.sayname()
+#person.sayage()
+
+class Teacher < Person
+  def sayIdent
+    puts "I'm teacher!"
+  end
+  def sayname
+    super
+    puts "Teacher --> sayname()"
+  end
+end
+
+teacher = Teacher.new("swyma","25")
+teacher.sayname()
+teacher.sayage()
+teacher.sayIdent()
